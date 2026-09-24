@@ -61,7 +61,7 @@ export const PORTFOLIO_DATA = {
     cvPath: "/General_CV_Dhanushka_Sachintha.pdf",
     githubUrl: "https://github.com/Dhanu45-sketch",
     avatarUrl: "/images/avatar.jpg",
-    linkedinUrl: "https://www.linkedin.com/in/dhanushka-vasanthathilaka-404281321/",
+    linkedinUrl: "https://www.linkedin.com/in/dhanushka-vasanthathilaka-404281321",
     email: "dhanuska.sachintha.dev@gmail.com",
     currentlyLearning: [
       "Advanced Flutter State Management (Bloc / Riverpod)",
@@ -136,12 +136,11 @@ export const PORTFOLIO_DATA = {
     badge: "Flagship Mobile App",
     role: "Flutter Developer & Database / UI Contributor (Team Project)",
     images: [
-      "/images/Screenshot 2026-01-31 020546.png",
-      "/images/Screenshot 2025-12-22 150213.png",
-      "/images/Screenshot 2025-12-22 150540.png",
-      "/images/Screenshot 2026-01-12 150759.png",
-      "/images/Screenshot 2025-12-27 125059.png",
-      "/images/Screenshot 2025-12-09 100611.png"
+      "/fixit/1.png",
+      "/fixit/2.png",
+      "/fixit/3.png",
+      "/fixit/4.png",
+      "/fixit/5.jpeg"
     ],
     codeSnippet: {
       filename: "lib/services/booking_service.dart",
@@ -242,10 +241,10 @@ class BookingService {
       featured: true,
       badge: "Cloud Infrastructure",
       images: [
-        "/images/Screenshot 2026-01-26 190956.png",
-        "/images/Screenshot 2026-01-26 144950.png",
-        "/images/Screenshot 2026-01-26 192132.png",
-        "/images/Screenshot 2026-01-25 204401.png"
+        "/images/aws_console.png",
+        "/images/aws_test_website.png",
+        "/images/aws_architecture.png",
+        "/images/aws_ec2.png"
       ],
       codeSnippet: {
         filename: "infrastructure/cloudformation_vpc_stack.yaml",
@@ -302,9 +301,8 @@ Resources:
       featured: false,
       badge: "Mobile App",
       images: [
-        "/images/Screenshot 2025-12-26 210732.png",
-        "/images/Screenshot 2026-01-03 181450.png",
-        "/images/Screenshot 2026-01-03 181502.png"
+        "/images/aura_screenshot1.jpg",
+        "/images/aura_screenshot2.jpg"
       ],
       codeSnippet: {
         filename: "lib/controllers/audio_player_controller.dart",
@@ -349,7 +347,10 @@ class AudioPlayerController extends GetxController {
       technologies: ["Web / PWA", "JavaScript", "SQL Database", "Offline Storage"],
       githubUrl: "https://github.com/Dhanu45-sketch/ResQ-DisasterManagement_App",
       featured: false,
-      badge: "Hackathon Project"
+      badge: "Hackathon Project",
+      images: [
+        "/images/hackathon.jpg"
+      ]
     },
     {
       id: "assignment-wdos",
@@ -359,7 +360,11 @@ class AudioPlayerController extends GetxController {
       technologies: ["HTML5", "CSS3", "JavaScript", "Responsive UI"],
       githubUrl: "https://github.com/Dhanu45-sketch/Assignment_WDOS.github.io",
       featured: false,
-      badge: "Academic Project"
+      badge: "Academic Project",
+      images: [
+        "/images/web1.png",
+        "/images/web2.png"
+      ]
     },
     {
       id: "airguard",
@@ -371,10 +376,10 @@ class AudioPlayerController extends GetxController {
       featured: false,
       badge: "IoT / Hardware",
       images: [
-        "/images/airguard_device.jpg",
-        "/images/airguard_internal.png",
+        "/images/airguard_slide1.png",
+        "/images/airguard_readings.jpg",
         "/images/airguard_thingspeak.jpg",
-        "/images/airguard_readings.jpg"
+        "/images/airguard_device.jpg"
       ]
     },
     {
